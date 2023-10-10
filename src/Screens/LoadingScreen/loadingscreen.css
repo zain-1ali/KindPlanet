@@ -1,0 +1,34 @@
+.loading_screen {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.loading-sub-screen {
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+
+.sapid-logo {
+    height: 47px;
+    width: 179px;
+}
+
+.image_container {
+    height: 100px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    object-fit: contain;
+    margin-bottom: 10px;
+
+    /* background-color: cadetblue; */
+    /* padding-top: 4rem; */
+}

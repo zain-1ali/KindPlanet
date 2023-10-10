@@ -1,0 +1,396 @@
+@font-face {
+    font-family: "MadeOuterSansLight";
+    src: url(../../../Assets/fonts/MadeOuterSansLight.otf);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.slide_main_div {
+    display: flex;
+    flex-direction: column;
+    position: fixed !important;
+    bottom: 0%;
+    position: relative;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 390px;
+    align-self: center;
+    min-height: 350px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    /* background: #FFFFFF; */
+    background: white;
+    /* background-color: #fcfcfc; */
+    z-index: 5;
+    box-shadow: 0px -5px 5px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.cancelButton {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 3px 8px;
+    font-weight: 600;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+.selectDates {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ef-input--row {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+}
+
+.ef-button--container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.ef-button--container button {
+    background-color: #1EAFEB;
+    color: #FFFFFF;
+    width: 70%;
+    font-size: 0.9rem;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+
+}
+
+.title_and_icon_main {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 10px;
+}
+
+.social_icon_slider_css {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon__main {
+    height: 5.9rem;
+    width: 5.9rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+}
+
+.icon__main__css {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.inputFiled_with_question_mark_main {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-self: center;
+    margin-top: 10px;
+}
+
+.input_field__div_main {
+    height: 2.2rem;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    /* background-color: cadetblue; */
+    border: 1px solid darkgray;
+    box-shadow: 0px 2px 2px 0px grey;
+}
+
+.input_field__csss {
+    outline: none;
+    border: none;
+    height: 100%;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #FFFFFF;
+    color: #07074E;
+    padding-left: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.question_main_icon_div_main {
+    height: 2.2rem;
+    width: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8C6766;
+    border-radius: 50%;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.cancel_and_save_btn_main_inSlider {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bth_button_inSlider {
+    height: 2.2rem;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    color: #07074E;
+    background-color: #CF9C9C;
+    /* border: 1px solid darkgray; */
+    font-weight: 500;
+    font-size: 1rem;
+    box-shadow: 2px 2px 2px 2px grey;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.calender_main_div {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-top: 2rem;
+    position: absolute;
+    z-index: 5;
+}
+
+.bio_slide_main_div {
+    display: flex;
+    flex-direction: column;
+    position: fixed !important;
+    bottom: 0%;
+    position: relative;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 390px;
+    align-self: center;
+    min-height: 340px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px -5px 5px 0px rgba(0, 0, 0, 0.25);
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ef-button--container_save {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+}
+
+.bio_text_area_Css {
+    /* height: 180px; */
+    width: 80%;
+    color: #8C6766;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid lightgrey; */
+    /* border-bottom: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey; */
+}
+
+.bioInputFIeld_css {
+    font-family: 'Poppins', sans-serif;
+    color: #8C6766;
+}
+
+.bioInputFIeld_css::placeholder {
+    font-family: 'Poppins', sans-serif;
+    color: #8C6766;
+}
+
+.change_password_slide_main_div {
+    display: flex;
+    flex-direction: column;
+    bottom: 0%;
+    position: fixed !important;
+    /* width: fit-content; */
+    align-self: center;
+    min-height: 400px;
+    width: 390px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    /* background: #f8f7fc; */
+    background: white;
+
+    /* background-color: cadetblue; */
+    z-index: 5;
+    box-shadow: 0px -5px 5px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.change_emailll_slide_main_div {
+    display: flex;
+    flex-direction: column;
+    bottom: 0%;
+    position: fixed !important;
+    /* width: fit-content; */
+    align-self: center;
+    min-height: 340px;
+    width: 390px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    /* background: #f8f7fc; */
+    background: white;
+
+    /* background-color: cadetblue; */
+    z-index: 5;
+    box-shadow: 0px -5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.change_password_title_and_icon_main {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    color: #8C6766;
+}
+
+.change_password_Sapid_logo_main {
+    height: 30%;
+    width: 30%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    /* border-radius: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    /* background-color: coral; */
+}
+
+.change_password_sapid_logo_css {
+    height: 37px;
+    width: 149px;
+}
+
+.reset_password_div {
+    /* background-color: tan; */
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    display: flex;
+    max-width: 50%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: #8C6766;
+    font-family: 'Poppins', sans-serif;
+}
+
+._new_password_div {
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    display: flex;
+    max-width: 50%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: #8C6766;
+    font-family: 'Poppins', sans-serif;
+}
+
+.change_password_text_field {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    color: #8C6766;
+    /* background-color: cadetblue; */
+}
+
+.change_password_input_field_css {
+    outline: none;
+    border: none;
+    /* height: 100%;/ */
+    font-size: 15px;
+    color: #8C6766;
+    border-radius: 5px;
+    width: 100%;
+    padding-left: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.change_emaill_input_field_css {
+    outline: none;
+    border: none;
+    height: 100%;
+    font-size: 15px;
+    color: #8C6766;
+    border-radius: 5px;
+    width: 100%;
+    padding-left: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.change_password_save_button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-self: center;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.change_passwordd_save_button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-self: center;
+    /* margin-top: 10px; */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media only screen and (max-width: 360px) {
+    .change_password_slide_main_div {
+        width: 100%;
+    }
+}

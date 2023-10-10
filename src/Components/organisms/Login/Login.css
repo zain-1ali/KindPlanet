@@ -1,0 +1,173 @@
+.Login_screen_main_div {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.Login_screen_sub_main {
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #f8f7fc; */
+    /* background-color: #fcfcfc; */
+    background-color: white;
+    /* background-color: cadetblue; */
+    /* border: 1px solid black; */
+    /* position: relative; */
+}
+
+.back_icon_div {
+    display: flex;
+    /* align-self: flex-start; */
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    /* margin-left: 1rem; */
+    padding-top: 2rem;
+    font-size: 2rem;
+    width: 85%;
+}
+
+.Login_image_container {
+    height: 37px;
+    width: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    object-fit: contain;
+    /* border: 1px solid black; */
+    margin-right: 80px;
+    margin-top: 5px;
+    /* padding-top: 3rem; */
+    /* position: absolute;
+    top: 20px; */
+}
+
+.Login_sapid_logo_css {
+    height: 37px;
+    width: 149px;
+}
+.first-leaf-main{
+width: 100%;
+display: flex;
+justify-content: flex-end;
+/* border: 1px solid black; */
+margin-top: 1.5rem;
+}
+.first-leaf{
+    width: 140px;
+height: 155px;
+/* rotate: 68.18deg; */
+/* angle:  deg; */
+
+}
+.welcome_back_signin_div {
+    /* padding-top: 2rem; */
+    /* color: rgb(29, 28, 28); */
+    /* text-align: center; */
+    width: 316px;
+  
+    color: #8C6766;
+    /* font-family: 'Poppins', sans-serif; */
+    /* border: 1px solid black; */
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.second-para{
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.both_input_field_main_div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.8rem;
+    width: 100%;
+    /* border: 1px solid black; */
+
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.single_input_field_div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.forgot_password_div {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: underline;
+    /* color: rgb(2, 2, 53); */
+    /* font-size: medium; */
+    color: #8C6766;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'MadeOuterSansLight', sans-serif;
+    cursor: pointer;
+
+}
+
+.continue_btn_div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.dont_have_account_div {
+    /* font-size: 15px;
+    color: #8C6766;
+    font-family: 'MadeOuterSansLight', sans-serif;
+    display: flex;
+    align-items: flex-end;
+    padding-top: 8px;
+    padding-bottom: 2rem; */
+    font-family: Poppins;
+font-size: 10px;
+font-weight: 500;
+line-height: 13px;
+letter-spacing: 0em;
+text-align: left;
+color: #CF9C9C;
+
+}
+
+.Sign_up_text_css {
+    font-size: 15px;
+    font-weight: 600;
+    color: #8C6766;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: 'MadeOuterSansLight', sans-serif;
+}
+.leaf8-main{
+    width: 100%;
+}
+.leaf8{
+width: 200px;
+height: 380px;
+/* border: 1px solid black; */
+/* position: absolute;
+bottom: 0px;
+left: 0px; */
+/* top: 716.67px
+left: -148px
+angle: -68.18 deg */
+
+}

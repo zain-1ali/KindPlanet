@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "MadeOuterSansLight";
+    src: url(../../../Assets//fonts/MadeOuterSansLight.otf);
+  }
+  
+
+.Signup_main_div{
+    display: flex;
+    justify-content: center;
+    /* height: 100vh; */
+height: max-content;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.Signup_sub_main{
+    position: relative;
+    width: 390px;
+    min-height: 100vh;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.Signup_sub_main_div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #f8f7fc; */
+    /* background-color: #fcfcfc; */
+    /* background-color: white; */
+    position: absolute;
+}
+.signup_back_icon_div{
+    display: flex;
+    align-self: flex-start;
+    margin-left: 1rem;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+.signup_image_container{
+    height: 50px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    object-fit: contain;
+    padding-top: 2rem;
+    position: absolute;
+    top: 20px;
+}
+.signup_sapid_logo_css{
+    height: 40px;
+    width: 160px;
+}
+.create_your_account_text_div{
+    padding-top: 1.3rem;
+    width: 286px;
+    margin-top: 20px;
+    /* color: rgb(29, 28, 28); */
+    /* text-align: center; */
+    /* font-weight: 500; */
+    /* border: 1px solid black; */
+    font-size: 22px;
+    line-height: 2.5rem;
+    color: #8C6766;
+    font-family: 'Poppins', sans-serif;
+}
+.signup_input_fields_main_div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.signup_one_input_field_div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 0.8rem;
+    /* background-color: #f8f7fc; */
+    /* background-color: #fcfcfc; */
+    background-color: transparent;
+    /* background-color: cadetblue; */
+}
+.important_note_div{
+    width: 80%;
+}
+.important_note_css{
+    font-size: 9px;
+    color: #A4A4A4;
+    /* color: rgb(117, 114, 114); */
+    font-family: 'Poppins', sans-serif;
+}
+.terms_condition_div_main{
+    font-size: 1rem;
+    color: #CF9C9C;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: flex-end;
+    /* padding-top: 8px; */
+    /* padding-bottom: 1rem; */
+   
+    text-align: center;
+    font-size: 8px;
+    /* color: rgb(2, 2, 53); */
+    line-height: 1.2rem;
+}
+.terms_condition_css{
+    font-weight: 600;
+    color: #CF9C9C;
+    font-family: 'Poppins', sans-serif;
+}
+.signupAllInputFields_css{
+    font-family: 'Poppins', sans-serif;
+}

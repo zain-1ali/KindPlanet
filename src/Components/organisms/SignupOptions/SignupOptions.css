@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "MadeOuterSansLight";
+    src: url(../../../Assets//fonts/MadeOuterSansLight.otf);
+}
+
+.signup_options_main_div{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.signup_options_submain{
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f7fc;
+    /* background-color: cadetblue; */
+}
+.main_Screen_change_language_switch_main{
+    display: flex;
+    width: 90%;
+    /* background-color: cadetblue; */
+    justify-content: flex-end;
+    margin: 20px;
+}
+.image_container{
+    height: 100px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    object-fit: contain;
+    margin-top: 20px;
+    /* background-color: cadetblue; */
+    /* padding-top: 4rem; */
+}   
+.sapid_logo_css{
+    height: 100%;
+    width: 100%;
+}
+.lets_get_started_div{
+    padding-top: 2rem;
+    color: rgb(29, 28, 28);
+    text-align: center;
+    font-weight: 550;
+    font-size: 2rem;
+    /* font-family: ; */
+    line-height: 2.5rem;
+    color: #07074E;
+    font-family: 'Poppins', sans-serif;
+}
+.buttons_main_div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.Already_have_account_div{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2rem;
+    color: #07074E;
+    display: flex;
+    align-items: flex-end;
+}
+.Sign_in_text_css{
+    font-size: 15px;
+    font-weight: 600;
+    color: #07074E;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 5px;
+}

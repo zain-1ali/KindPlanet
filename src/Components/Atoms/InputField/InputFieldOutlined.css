@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "MadeOuterSansLight";
+    src: url(../../../Assets//fonts/MadeOuterSansLight.otf);
+  }
+  
+
+.input_field_outlined_main{
+    height: 52px;
+    width: 316px;
+    /* background-color: red; */
+    border-radius: 25px;  
+    border: 1px solid #8C6766;
+    /* background-color: #f8f7fc; */
+    background-color: transparent;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    color: #8C6766;
+
+}
+.input_field_css_outlined{
+    height: 45px;
+    width: 286px;
+    margin-top: 3px;
+    margin-left: 3px;
+    border-radius: 25px;
+    padding-left: .9rem;
+    outline: none;
+    border: none;
+
+    /* background-color: #f8f7fc; */
+    background-color: transparent;
+    font-size: 15px;
+    color: #8C6766;
+    font-family: 'Poppins', sans-serif;
+
+}
+.input_field_css_outlined::placeholder{
+     color: #8C6766;
+    font-size: 15px; 
+    /* font-weight: 200; */
+    /* font-family: 'Poppins', sans-serif; */
+
+}

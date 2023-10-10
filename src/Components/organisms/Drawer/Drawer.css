@@ -1,0 +1,220 @@
+.drawer_main_div {
+    /* background-color: rgb(255, 255, 255); */
+    background-color: white;
+    /* background-color: #fcfcfc; */
+    display: flex;
+    width: 65%;
+    height: 100%;
+    /* margin-top: 1rem; */
+    padding-left: 5px;
+    flex-direction: column;
+    border-right: 1px solid rgb(138, 138, 138);
+    /* background-color: cadetblue; */
+    position: relative;
+    z-index: 4;
+    transition: transform 0.3s ease-out;
+    transform: translateX(0);
+}
+
+.drawer_main_div.closed {
+    transform: translateX(100%);
+}
+
+.profile_name_email_main {
+    display: flex;
+    width: 100%;
+    /* padding-top: 20px; */
+    margin-top: 2.5rem;
+    flex-direction: row;
+    align-items: center;
+    height: 10%;
+    cursor: pointer;
+    /* background-color: cadetblue; */
+}
+
+.change_language_switch_main {
+    display: flex;
+    flex-direction: row;
+    /* padding-top: 1rem; */
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 77px;
+    bottom: 10px;
+
+}
+
+
+
+.drawer_profile_pic_div {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    /* border: 2px solid rgb(34, 34, 34); */
+    display: flex;
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_pic_second_border {
+    height: 100%;
+    background-color: antiquewhite;
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid rgb(34, 34, 34);
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+
+}
+
+.drawer_profile_pic_css {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.name_email_main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.name_csss {
+    font-weight: 500;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 150px;
+    color: "#07074E";
+    font-family: 'Poppins', sans-serif;
+}
+
+.email_css {
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 150px;
+    color: #07074E;
+    font-family: 'Poppins', sans-serif;
+}
+
+.profile_off_profile_on_switch_main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: chartreuse; */
+}
+
+.profile_sub_main_on_off {
+    width: 72%;
+    height: 85%;
+    background-color: #8C6766;
+    display: flex;
+    align-items: center;
+    /* border-radius: 5px; */
+    padding: 3px;
+    justify-content: space-evenly;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.drawer_options_main {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+}
+
+.option_icon_with_text_main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.icon_csss_div {
+    height: 90%;
+    width: 10%;
+    /* background-color: chartreuse; */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option_name_css {
+    padding-left: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    color: #07074E;
+    font-family: 'Poppins', sans-serif;
+}
+
+.option_profile_css {
+    padding-right: 5px;
+
+    font-size: 15px;
+    color: #07074E;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logout_icon_with_text {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-end; */
+    align-items: center;
+    width: 100%;
+    /* background-color: chartreuse; */
+    /* height: 100%; */
+    margin-top: 1rem;
+    padding-left: 5px;
+}
+
+.icon_csss_div {
+    /* background-color: cadetblue; */
+    height: 90%;
+    width: 15%;
+    display: flex;
+    /* justify-content: flex-end;
+    justify-content: center; */
+    align-items: flex-end;
+}
+
+.icon_csss_divv {
+    width: 12%;
+    align-items: flex-end;
+}
+
+.logout_text_css {
+    padding-left: 10px;
+    padding-bottom: 7px;
+    color: red;
+    font-family: 'Poppins', sans-serif;
+}
+
+.app_version_className {
+    width: 100%;
+    color: darkgray;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    padding-right: 1rem;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}

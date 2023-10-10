@@ -1,0 +1,41 @@
+.bottomSheet_main_div{
+    display: flex;
+    justify-content: space-between;
+    position: fixed !important;
+    bottom: 0%;
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+    border-radius: 15px;
+    background: #FFFFFF;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.share_to_text{
+    width: 100%;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    /* background-color: rebeccapurple; */
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.label_text__csss{
+    font-family: 'Poppins', sans-serif;
+
+}
+.social_sites_single_main_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+    width: 5rem;
+    /* background-color: cadetblue; */
+
+
+}
+.social_labels_name{
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+}
